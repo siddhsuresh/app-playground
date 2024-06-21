@@ -1,3 +1,5 @@
+
+sup
 # Next.js App Router Playground
 
 Next.js recently introduced the App Router with support for:
