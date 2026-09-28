@@ -14,3 +14,5 @@ resource "terraform_data" "legacy" {
 output "greeting" {
   value = terraform_data.greeting.output
 }
+
+# Applied by the stack before the e2e pull request.
