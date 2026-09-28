@@ -4,15 +4,15 @@ terraform {
 
 variable "greeting" {
   type    = string
-  default = "hello"
+  default = "hello from the pull request"
 }
 
 resource "terraform_data" "greeting" {
   input = var.greeting
 }
 
-resource "terraform_data" "legacy" {
-  input = "removed by the e2e pull request"
+resource "terraform_data" "added" {
+  input = "added by the e2e pull request"
 }
 
 output "greeting" {
