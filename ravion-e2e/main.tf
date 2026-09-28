@@ -1,3 +1,7 @@
+terraform {
+  cloud {}
+}
+
 variable "greeting" {
   type    = string
   default = "hello"
